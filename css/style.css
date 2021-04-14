@@ -20,6 +20,12 @@ nav ul {
     list-style-type: none;
 }
 
+nav ul :hover {
+    background-color: rgba(140, 248, 52, 0.904);
+    border-radius: 25px;
+    box-shadow: 0 1px #160603;
+}
+
 nav ul li {
     display: inline-block;
     margin-right: 20px;
@@ -27,7 +33,7 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: #555;
+    color: rgb(224, 34, 34);
 }
 
 p {
@@ -64,6 +70,11 @@ p {
     margin: 25px 0;
 }
 
+
+/* .col-2 img {
+    background-color: rgba(127, 255, 212, 0.39);
+} */
+
 .btn {
     display: inline-block;
     background: rgb(97, 236, 5);
@@ -71,4 +82,28 @@ p {
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
+}
+
+.btn :hover {
+    background: radial-gradient(rgb(199, 207, 85), navy, yellow);
+}
+
+.header {
+    background: radial-gradient(#fff, #f0c3c3, rgb(178, 233, 178))
+}
+
+.header .row {
+    margin-top: 70px;
+}
+
+
+/* body font */
+
+.col-2 h1 {
+    font-family: 'Amatic SC', cursive;
+}
+
+.col-2 p {
+    font-family: 'Amatic SC', cursive;
+    color: black;
 }
