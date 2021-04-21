@@ -1,0 +1,30 @@
+.row {
+    background: grey;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-3 {
+    flex-basis: 33%;
+    min-width: 250px;
+    margin-bottom: 0px;
+}
+
+.btn-field {
+    background: grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.btn {
+    width: 125px;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
